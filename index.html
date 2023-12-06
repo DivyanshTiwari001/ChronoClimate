@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather">
+            <h1><span>Weather Report</span><span id="expand">&#9776;</span></h1>
+        </div>
+        <div class="clock">
+            <ul class="navbar">
+                <li onclick="getClock()">Clock</li>
+                <li onclick="getTimer()">Timer</li>
+                <li onclick="getStopWatch()">Stopwatch</li>
+            </ul>
+            <div class="clockContainer"></div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

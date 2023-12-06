@@ -191,15 +191,13 @@
     .clock>.navbar{
         width: 100vw;
         margin-bottom: 10px;
-        height: fit-content;
+        height: max-content;
     }
     .clock>.clockContainer{
         width: 100vw;
-        height: max-content;
     }
     .digiclock{
         width: 100%;
-        height: max-content;
     }
     .timerContainer>.buttons>button{
         width: 100px;
